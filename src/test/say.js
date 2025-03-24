@@ -6,6 +6,7 @@ function sayBye(user) {
     console.log(`Goodbye, ${user}!`);
 }
 
+export default sayHi;
 export {
-    sayHi, sayBye
+    sayBye
 };

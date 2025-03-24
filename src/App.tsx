@@ -2,14 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
-const MyFirstComponent = () => {
-  return (
-    <div>
-      <h1>My First Component</h1>
-    </div>
-  )
-}
+import MyFirstComponent from './test/my.first.component'  // import khong can { } vi export default
 
 function App() {
   const [count, setCount] = useState(0)
