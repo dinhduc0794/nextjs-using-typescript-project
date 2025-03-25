@@ -1,5 +1,5 @@
-import { sayBye } from './test/say' // can phai de trong cap dau {} vi no la export named -> phai dat ten dung voi ten export ra
-import sayHello from './test/say'   // dat ten la gi cung duoc vi no la export default -> mac dinh no tu dong export ra sayHi
+import { sayBye } from './say' // can phai de trong cap dau {} vi no la export named -> phai dat ten dung voi ten export ra
+import sayHello from './say'   // dat ten la gi cung duoc vi no la export default -> mac dinh no tu dong export ra sayHi
 
 const MyFirstComponent = () => {
   sayHello  ("Dinh Duc")
