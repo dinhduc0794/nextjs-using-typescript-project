@@ -8,7 +8,9 @@ function App() {
   const info = {
     gender: "male",
     address: "hcm"
-  }
+  } 
+
+  const tasks = ["task 1", "task 2", "task 3", "task 4", "task 5", "task 6"]
 
   return (
     <div>
@@ -21,6 +23,15 @@ function App() {
         age = {age}
         dinhduc = {info}
       />
+
+      <br />  
+      <ul>
+        {tasks.map((item, index) => {
+          return (
+            <li key = {index}>{item}</li>
+          )
+        })}
+      </ul>
     </div>
   )
 }

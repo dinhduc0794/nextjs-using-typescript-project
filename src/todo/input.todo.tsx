@@ -22,7 +22,12 @@ const InputTodo = (props: IProps) => {     // keyword any -> off type checking
         <div>
             <div>
                 age = {age}
+            </div>
+            <div>
                 name = {name}
+            </div>
+            <div>
+                location = {props.dinhduc.address}
             </div>
             <div>Add new task todo</div>
             <input type="text" />
