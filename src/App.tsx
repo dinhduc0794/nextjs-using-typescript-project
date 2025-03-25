@@ -17,9 +17,9 @@ function App() {
       </div>
 
       <InputTodo
-        dduc = {name}
+        name = {name}
         age = {age}
-        info = {info}
+        dinhduc = {info}
       />
     </div>
   )
